@@ -6,7 +6,7 @@ Add a postfixed method call instruction to recursive calls
 
 ## Nuget package 
 
-http://nuget.org/packages/Fody.Tail
+http://nuget.org/packages/Tail.Fody
 
 ## Your code
 
@@ -51,5 +51,4 @@ http://nuget.org/packages/Fody.Tail
     
 ## What fields are targeted 
 
- * All recursive methods with tail call recursions
- * WIP: For Methods with the `[Tail]` attribute.
+ * All methods within tail call position
