@@ -4,8 +4,8 @@
     <id>Fody.Tail</id>
     <version>$version$</version>
     <title>Fody.Tail</title>
-    <authors>Simon Cropp</authors>
-    <owners>Simon Cropp</owners>
+    <authors>Alexander Zaytsev</authors>
+    <owners>Alexander Zaytsev</owners>
     <developmentDependency>true</developmentDependency>
     <licenseUrl>http://www.opensource.org/licenses/mit-license.php</licenseUrl>
     <projectUrl>http://github.com/hazzik/Fody.Tail</projectUrl>
