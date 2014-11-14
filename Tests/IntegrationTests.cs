@@ -81,6 +81,14 @@ public class IntegrationTests
         c.FibVirtual2(int.MaxValue, 0);
     }
 
+    [Test]
+    public void A()
+    {
+        Type t = assembly.GetType("ClassToTest", true);
+        dynamic c = Activator.CreateInstance(t);
+        c.A();
+    }
+
 #if(DEBUG)
     [Test]
     public void PeVerify()

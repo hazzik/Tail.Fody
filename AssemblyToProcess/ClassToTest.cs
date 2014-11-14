@@ -74,4 +74,9 @@
 
         return FibVirtual2(i - 1, acc + i);
     }
+
+    public virtual int A()
+    {
+        return Fib1(int.MaxValue, 0);
+    } 
 }

@@ -19,8 +19,6 @@ public partial class ModuleWeaver
         {
             if (instruction.OpCode == OpCodes.Call || instruction.OpCode == OpCodes.Calli || instruction.OpCode == OpCodes.Callvirt)
             {
-                if (instruction.Operand == method)
-                {
                     if (instruction.Previous != null && instruction.Previous.OpCode != OpCodes.Tail)
                     {
                         if (instruction.Next != null)
@@ -55,7 +53,6 @@ public partial class ModuleWeaver
                             }
                         }
                     }
-                }
             }
         }
     }
