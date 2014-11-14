@@ -75,11 +75,6 @@
       <Name>AssemblyToProcess</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
-    <ProjectReference Include="..\AssemblyWithBadWrites\AssemblyWithBadWrites.csproj">
-      <Project>{397ae6d6-c049-449b-a95d-59b9dd12f41f}</Project>
-      <Name>AssemblyWithBadWrites</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-    </ProjectReference>
     <ProjectReference Include="..\Fody\Fody.csproj">
       <Project>{C3578A7B-09A6-4444-9383-0DEAFA4958BD}</Project>
       <Name>Fody</Name>
