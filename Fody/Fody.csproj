@@ -69,6 +69,7 @@
     <Compile Include="OptimizeRecursion.cs" />
     <Compile Include="ModuleWeaver.cs" />
     <Compile Include="..\CommonAssemblyInfo.cs" />
+    <Compile Include="Pattern.cs" />
     <Compile Include="ReferenceCleaner.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
