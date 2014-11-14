@@ -11,7 +11,7 @@
     <projectUrl>http://github.com/hazzik/Fody.Tail</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://raw.github.com/hazzik/Fody.Tail/master/Icons/package_icon.png</iconUrl>
-    <description>Add tail. optimization to recursion</description>
+    <description>Add tail. optimization to recursive calls</description>
     <tags>Tail Recursion, ILWeaving, Fody, Cecil</tags>
     <dependencies>
       <dependency id="Fody"/>
