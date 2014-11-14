@@ -1,16 +1,16 @@
 <?xml version="1.0"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata minClientVersion="2.8">
-    <id>Fody.Tail</id>
+    <id>Tail.Fody</id>
     <version>$version$</version>
-    <title>Fody.Tail</title>
+    <title>Tail.Fody</title>
     <authors>Alexander Zaytsev</authors>
     <owners>Alexander Zaytsev</owners>
     <developmentDependency>true</developmentDependency>
     <licenseUrl>http://www.opensource.org/licenses/mit-license.php</licenseUrl>
-    <projectUrl>http://github.com/hazzik/Fody.Tail</projectUrl>
+    <projectUrl>http://github.com/hazzik/Tail.Fody</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>https://raw.github.com/hazzik/Fody.Tail/master/Icons/package_icon.png</iconUrl>
+    <iconUrl>https://raw.github.com/hazzik/Tail.Fody/master/Icons/package_icon.png</iconUrl>
     <description>Add tail. optimization to recursive calls</description>
     <tags>Tail Recursion, ILWeaving, Fody, Cecil</tags>
     <dependencies>
