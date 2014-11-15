@@ -49,6 +49,6 @@ http://nuget.org/packages/Tail.Fody
 	} // end of method Fib
 
     
-## What fields are targeted 
+## What methods are targeted 
 
- * All methods within tail call position
+ * All methods in tail call position
