@@ -75,6 +75,25 @@
         return FibVirtual2(i - 1, acc + i);
     }
 
+    public int FibX(int i, int acc)
+    {
+        if (i == 0)
+        {
+            return acc;
+        }
+
+        return FibY(i - 1, acc + i);
+    }
+    public int FibY(int i, int acc)
+    {
+        if (i == 0)
+        {
+            return acc;
+        }
+
+        return FibX(i - 1, acc + i);
+    }
+
     public virtual int A()
     {
         return Fib1(int.MaxValue, 0);

@@ -50,6 +50,14 @@ public class IntegrationTests
 
 
     [Test]
+    public void FibXY()
+    {
+        Type t = assembly.GetType("ClassToTest", true);
+        dynamic c = Activator.CreateInstance(t);
+        c.FibX(int.MaxValue, 0);
+    }
+
+    [Test]
     public void Fib1()
     {
         Type t = assembly.GetType("ClassToTest", true);
